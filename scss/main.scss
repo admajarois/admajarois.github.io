@@ -1,13 +1,9 @@
-$alert:(
-    'danger': red,
-    'success': green,
-    'warning': orange,
-);
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+//Variable
 
-.main {
-    color: map-get($alert, 'success' );
-    .main-heading {
-        font-size: 2em;
-    }
-    
+
+//body
+body {
+    font-family: 'Open Sans', sans-serif;
 }
