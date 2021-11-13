@@ -1,0 +1,13 @@
+$alert:(
+    'danger': red,
+    'success': green,
+    'warning': orange,
+);
+
+.main {
+    color: map-get($alert, 'success' );
+    .main-heading {
+        font-size: 2em;
+    }
+    
+}
