@@ -1,5 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 body {
   font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
+}
+
+.custom-nav {
+  background-color: #000000;
+  color: #e3e3e3;
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
+.custom-footer {
+  background-color: #000000;
+  color: #e3e3e3;
+}
+
+.custom-footer li a {
+  color: #e3e3e3;
+}
+
+.custom-footer img {
+  width: 40px;
+  height: 40px;
 }
 /*# sourceMappingURL=main.css.map */

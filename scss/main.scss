@@ -1,9 +1,47 @@
 //Font
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 //Variable
+$primaryColor: #912bf0;
+$secondaryColor: #ed2be7;
+$thirdColor: #fcb1f9;
+$blackColor: #000000;
+$whiteColor: #ffffff;
+
+$textDark: #e3e3e3;
+$textLight: #212121;
+
+$primaryGradient: linear-gradient(90deg, rgba(241,107,250,1) 25%, rgba(165,107,250,1) 77%);
+$secondaryGradient: linear-gradient(0deg, rgba(134,39,39,1) 6%, rgba(73,38,111,1) 98%);
+$thirdGradient: linear-gradient(90deg, rgba(40,42,150,1) 0%, rgba(147,44,244,1) 100%);
+
 
 
 //body
 body {
     font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+}
+
+//nav
+
+.custom-nav {
+    background-color: $blackColor;
+    color: $textDark;
+    backdrop-filter: blur(6px);
+}
+
+//content
+
+
+//footer
+.custom-footer {
+    background-color: $blackColor;
+    color: $textDark;
+    li a {
+        color: $textDark;
+    }
+    img {
+        width: 40px;
+        height: 40px;
+    }
 }
